@@ -1,0 +1,18 @@
+{
+  "server_url": "https://hil-dashboard.yourcompany.com",
+  "api_key": "rig-lab-a-07-secret-key-here",
+  "rig_id": "HIL-LAB-A-RIG-07",
+  "metadata": {
+    "location": "Lab A - Building 3",
+    "rack": "R07",
+    "capabilities": ["CAN", "LIN", "Ethernet"],
+    "ecu_type": "BCM_Gen3",
+    "contact": "john.doe@company.com"
+  },
+  "test_process_names": [
+    "CANoe.exe",
+    "Vector_CANoe.exe",
+    "HILSoftware.exe",
+    "TestRunner.exe"
+  ]
+}
