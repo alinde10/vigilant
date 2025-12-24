@@ -84,12 +84,8 @@ This project was created as an open source solution to that universal problem, d
 
 ### Agent Installation
 ```powershell
-# Download latest release
-Invoke-WebRequest -Uri https://github.com/alinde10/vigilant/releases/latest/download/vigilant-agent.zip -OutFile vigilant.zip
-Expand-Archive vigilant.zip -DestinationPath C:\Vigilant
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-# Configure
-cd C:\Vigilant
 # Edit config.json with your server URL and rig details
 
 # Install as scheduled task (Run as Administrator)
